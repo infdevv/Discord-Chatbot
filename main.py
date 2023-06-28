@@ -39,7 +39,7 @@ async def on_message(message):
             wave_gif = discord.File(file)
             await message.channel.send(file=wave_gif)
     elif message.content.lower() == "!help":
-        help_message = "Hello! I'm Nebula. You can use the `;` prefix to communicate with me. Here are some commands you can try:\n\n" \
+        help_message = "Hello! I'm a template bot! You can use the `;` prefix to communicate with me. Here are some commands you can try:\n\n" \
                        "-` Disclaimer: We are not responsible for what the bot produces. ` \n\n"
         await message.channel.send(help_message)
         with open("bubble.gif", "rb") as file:
