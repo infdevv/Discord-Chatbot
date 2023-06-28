@@ -25,7 +25,7 @@ class Chatbot:
     def generate_text(self, prompt, max_length=30, num_return_sequences=1):
         return self.generator(prompt, max_length=max_length, num_return_sequences=num_return_sequences)
 
-##Command Prefix
+###Command Prefix
 The bot uses ; as the command prefix by default. You can change it by modifying the command_prefix parameter when creating the commands.Bot instance.
 
 bot = commands.Bot(command_prefix=";")
