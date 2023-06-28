@@ -67,5 +67,5 @@ async def on_message(message):
 
 # Run the Discord bot
 
-bot.run('MTA3MzA0MDA1Njg2NjA1NDE3Ng.G3eG2M.9kSA836IZ8cwJrfApQ_KTZKnzuduYwqQzFRBfA')
+bot.run('YOUR-BOT-TOKEN')
 
